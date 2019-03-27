@@ -9,7 +9,7 @@ const App = createStackNavigator({
   'home' : {screen: HomeView},
   'diceRoll' : {screen: DiceRollView}
 },{
-  initialRouteName: 'home'
+  initialRouteName: 'diceRoll'
 });
 
 const AppContainer = createAppContainer(App);
